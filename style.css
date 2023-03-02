@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+    padding:0px;
+    margin:0px;
+}
+#Principal {   
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Principal div a{
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    text-decoration: none;
+}
+    #Principal div a:hover{
+        color: #CCCCCC;
+    }
+.Menu{
+    display: flex;
+    width: 45%;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+#Principal button{
+    margin-right: 5%;
+    background-color: #0C70f2;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 3px 2px 4px rgba( 12, 112, 242, 0.25);
+}
