@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootcamp DNC</title>
     <link href="style.css" rel="stylesheet">
-    
+
 </head>
+
 <body>
-    <nav id="Principal">
-        <div class="Menu">
-            <a href="">home</a>
-            <a href="">ultimas edições</a>
-            <a href="">requisitos para participar</a>
+    <nav id="principal">
+        <div id="menu">
+            <a href="">Home</a>
+            <a href="">Ultimas Edições</a>
+            <a href="">Requisitos para Participar</a>
         </div>
         <button>Login</button>
     </nav>
     <section>
         <header>
-            <h1>BootcampDNC</h1>
+            <h1 id="titulo">Bootcamp DNC</h1>
             <h2>
                 Esse será um evento exclusivo para todos os alunos<br>
-                da <B>DNC</B>, que querem <spam class="invert">acelerar a carreira</spam> com uma<br>
+                da <b>DNC</b>, que querem <spam class="invert">acelerar a carreira</spam> com uma<br>
                 semana itensiva de conteúdo de mercado entre<br>
                 <spam class="invert">BACK-END, FRONT-END & BANCO DE DADOS.</spam>
             </h2>
 
         </header>
         <form>
-            <div class="forma">
+            <div class="form-group">
                 <label>Nome:</label>
                 <input type="text" placeholder="Insira seu nome aqui...">
             </div>
-            <div class="forma">
+            <div class="form-group">
                 <label>Sobrenome:</label>
                 <input type="text" placeholder="Insira seu sobrenome aqui...">
             </div>
-            <div class="forma">
+            <div class="form-group">
                 <label>Area de Interesse:</label>
-                <input type="checkbox">FRONT-END
-                <input type="checkbox">BACK-END
-                <input type="checkbox">BANCO DE DADOS
+                <div class="itens">
+                    <input type="checkbox" value="front">
+                    <label>Front-end</label>
+
+                    <input type="checkbox" value="back">
+                    <label>Back-end</label>
+
+                    <input type="checkbox" value="bd">
+                    <label>Banco de Dados</label>
             </div>
-            <div class="forma">
+            <div class="form-group">
                 <label>E-mail:</label>
                 <input type="text" placeholder="Insira seu  E-mail aqui...">
             </div>
-            <div class="forma">
+            <div class="form-group">
                 <label>Telefone:</label>
                 <input type="text" placeholder="(99) 9090-9900">
             </div>
-            <div class="forma">
+            <div class="form-group">
                 <label>Insira uma frase criativa aqui:</label>
-                <input type="text" placeholder="Quak frase criativa você gostaria de falar?">
+                <input type="text" placeholder="Qual frase criativa você gostaria de falar?">
             </div>
-
-            </div>
+           
         </form>
+         <input type="submit" value="Cadastrar">
     </section>
-    
+
 </body>
+
 </html>
